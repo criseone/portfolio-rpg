@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- World Layout for ZNA RPG -->
+  <!-- Use simple shapes to define object positions. -->
+  <!-- The viewBox corresponds to the TERRAIN.IslandSize. -->
+
+  <!-- Monoliths -->
+  <g id="monoliths">
+    <circle cx="250" cy="200" r="10" data-id="laburoso-projects" />
+    <circle cx="200" cy="300" r="10" data-id="bildspur-projects" />
+    <circle cx="300" cy="300" r="10" data-id="education-coaching" />
+    <circle cx="300" cy="150" r="10" data-id="website-projects" />
+    <circle cx="150" cy="250" r="10" data-id="sniffari-expanded" />
+    <circle cx="350" cy="250" r="10" data-id="tommasini-project" />
+  </g>
+
+  <!-- Trees -->
+  <g id="trees">
+    <!-- A cluster of trees -->
+    <circle cx="125" cy="125" r="5" />
+    <circle cx="130" cy="127" r="5" />
+    <circle cx="120" cy="128" r="5" />
+    <circle cx="127" cy="120" r="5" />
+
+    <!-- Another cluster -->
+    <circle cx="375" cy="375" r="5" />
+    <circle cx="380" cy="372" r="5" />
+    <circle cx="370" cy="378" r="5" />
+    <circle cx="377" cy="380" r="5" />
+  </g>
+
+  <!-- Benches -->
+  <g id="benches">
+    <rect x="237" y="275" width="20" height="10" />
+    <rect x="262" y="275" width="20" height="10" />
+  </g>
+
+  <!-- Wayfinding Totems -->
+  <g id="totems">
+    <rect x="225" y="225" width="5" height="15" />
+  </g>
+
+  <!-- Streetlights -->
+  <g id="streetlights">
+    <circle cx="225" cy="250" r="2" />
+    <circle cx="275" cy="250" r="2" />
+  </g>
+</svg>

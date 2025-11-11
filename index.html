@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <title>RPG Portfolio App</title>
+    <style>
+      html, body { margin:0; height:100%; background:#06080a; color:#e8f0ff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif; }
+      #app { position:fixed; inset:0; overflow:hidden; }
+      .ui { position:fixed; inset:0; pointer-events:none; }
+      .panel { pointer-events:auto; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); background:#0a0f14cc; border:1px solid #1a2530; border-radius:12px; padding:20px; width:min(520px, 92vw); box-shadow:0 10px 30px rgba(0,0,0,.4); }
+      .btn { display:inline-block; background:#0b1620; color:#aee1ff; border:1px solid #274358; padding:10px 14px; border-radius:10px; text-decoration:none; cursor:pointer; }
+      .btn:hover { background:#102334; }
+      .char-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:12px; }
+      .hint { position:absolute; left:50%; transform:translateX(-50%); bottom:20px; font-size:12px; opacity:.7; }
+      .toast { position:absolute; left:50%; transform:translateX(-50%); bottom:32px; background:#0b1620; border:1px solid #274358; border-radius:10px; padding:8px 12px; opacity:.95; }
+      .tag { font-size:12px; opacity:.8; }
+      .status-display {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        font-size: 14px;
+      }
+      .status-display p {
+        margin: 0 0 5px;
+      }
+      .project-panel {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+      }
+      .project-panel .panel {
+        position: relative;
+      }
+      .project-panel .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="ui" id="ui-root"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "laburoso-projects",
+    "title": "Laburoso Projects",
+    "category": "design",
+    "position": [6, 0, -12],
+    "gate": { "all": ["design"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Brand & creative direction.", "url": "#" }
+  },
+  {
+    "id": "website-projects",
+    "title": "Website Projects (Quiqmove, Lina)",
+    "category": "design",
+    "position": [-9, 0, -18],
+    "gate": { "any": ["design", "collab"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Interfaces & web experiences.", "url": "#" }
+  },
+  {
+    "id": "bildspur-projects",
+    "title": "Bildspur Projects",
+    "category": "art",
+    "position": [14, 0, -24],
+    "gate": { "all": ["art"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Media art & projection.", "url": "#" }
+  },
+  {
+    "id": "sniffari-expanded",
+    "title": "Sniffari Expanded",
+    "category": "art",
+    "position": [-16, 0, -26],
+    "gate": { "any": ["art", "design"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Experiential art & senses.", "url": "#" }
+  },
+  {
+    "id": "education-coaching",
+    "title": "Education & Coaching",
+    "category": "collab",
+    "position": [0, 0, -30],
+    "gate": { "all": ["collab"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Workshops & mentorship.", "url": "#" }
+  },
+  {
+    "id": "tommasini-project",
+    "title": "Tommasini Project",
+    "category": "collab",
+    "position": [22, 0, -18],
+    "gate": { "all": ["collab", "design"] },
+    "battlePatternId": "light-triangle",
+    "project": { "summary": "Collaboration design.", "url": "#" }
+  }
+]
